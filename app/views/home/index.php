@@ -1,12 +1,11 @@
-<div class="container">
+<div class="container mt-5">
 <div class="jumbotron">
   <h1 class="display-4">Hallo Semua 👋🏻</h1>
   <p class="lead">Halo, nama saya <?= $data['nama']; ?>, Selamat Datang di Website Saya!</p>
   <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p>Webiste ini berisi tentang pengelolaan data mahasiswa.</p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <a class="btn btn-primary btn-lg" href="<?= BASEURL; ?>/mahasiswa" role="button">Lihat Data Mahasiswa</a>
   </p>
 </div>
-<h1>Welcome 😁</h1>
 </div>
