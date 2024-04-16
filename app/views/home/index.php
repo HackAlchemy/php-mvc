@@ -1,7 +1,7 @@
 <div class="container">
 <div class="jumbotron">
   <h1 class="display-4">Hallo Semua 👋🏻</h1>
-  <p class="lead">Selamat Datang di Website Saya!</p>
+  <p class="lead">Halo, nama saya <?= $data['nama']; ?>, Selamat Datang di Website Saya!</p>
   <hr class="my-4">
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <p class="lead">
