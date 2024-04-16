@@ -23,5 +23,4 @@ class Flasher
             unset($_SESSION['flash']);
         }
     }
-
 }
